@@ -22,6 +22,4 @@ function CounterApp() {
   );
 }
 export default CounterApp;
-//we can write the different types of code .
-//The first one i handle increament directly in button
-//The second one i handle the decreamentcode using function
+
