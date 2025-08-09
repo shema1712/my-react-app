@@ -11,8 +11,8 @@ function CounterApp() {
 
   return (
     <div>
-      <h1>Counter App</h1>
-      <p>count:{count}</p>
+      <h1>Counter App </h1>
+      <p>count the number:{count}</p>
       <button onClick={setCount(count + 1)}>Increment </button>
       <button onClick={handleDecrement}>Decrement </button>
       <button onClick={handleReset}>Reset </button>
