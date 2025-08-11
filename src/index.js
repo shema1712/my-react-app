@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import App from "./App";
-import CounterApp from "./Counterapp";
+// import App from "./App";
+// import CounterApp from "./CounterApp";
+import TempConverter from "./TempConverter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <CounterApp />
+    {/* <App />
+    <CounterApp /> */}
+    <TempConverter />
   </React.StrictMode>
 );
 
