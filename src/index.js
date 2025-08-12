@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import TodoList from "./TodoList";
+import ColorPickerApp from "./ColorPickerApp";
 
+//import ToggleApp from "./ToggleApp";
+//import TodoList from "./TodoList";
 // import App from "./App";
 // import CounterApp from "./CounterApp";
 //import TempConverter from "./TempConverter";
@@ -12,7 +14,9 @@ root.render(
     {/* <App />
     <CounterApp /> */}
     {/* <TempConverter /> */}
-    <TodoList />
+    {/* <TodoList /> */}
+    {/* <ToggleApp /> */}
+    <ColorPickerApp />
   </React.StrictMode>
 );
 
